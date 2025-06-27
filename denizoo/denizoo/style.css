@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  min-height: 100vh;
+}
+#tetris-container {
+  width: 240px;
+  height: 400px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 2px solid #444;
+  background: #181818;
+  margin-bottom: 1rem;
+}
+canvas#tetris {
+  display: block;
+  background: #222;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #000a;
+}
+#score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffe138;
+  background: #222;
+  padding: 0.25em 0.75em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0004;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+  color: #222;
+  font-weight: bold;
+  box-shadow: 0 2px 8px #38f9d766;
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+  color: #111;
+} 
